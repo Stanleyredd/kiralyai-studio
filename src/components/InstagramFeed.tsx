@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import SectionHeading from "./SectionHeading";
 
-const INSTAGRAM_POST_URL = "https://www.instagram.com/p/DWRc074CIaf/";
+const posts = [
+  "https://www.instagram.com/p/DV_FXgKCsxs/",
+  "https://www.instagram.com/p/DV07PpTCvOB/",
+];
 
 const InstagramFeed = () => {
   useEffect(() => {
@@ -34,27 +37,30 @@ const InstagramFeed = () => {
       <div className="container-tight">
         <SectionHeading
           label="Instagram"
-          title="Latest Post"
-          description="Bekijk onze nieuwste Instagram post."
+          title="Latest Posts"
+          description="Bekijk onze nieuwste Instagram posts."
         />
 
-        <div className="mx-auto max-w-xl">
-          <blockquote
-            className="instagram-media"
-            data-instgrm-captioned
-            data-instgrm-permalink={INSTAGRAM_POST_URL}
-            data-instgrm-version="14"
-            style={{
-              background: "#fff",
-              border: 0,
-              borderRadius: "12px",
-              margin: "0 auto",
-              maxWidth: "540px",
-              minWidth: "326px",
-              padding: 0,
-              width: "100%",
-            }}
-          />
+        <div className="grid gap-8 md:grid-cols-2">
+          {posts.map((url) => (
+            <blockquote
+              key={url}
+              className="instagram-media"
+              data-instgrm-captioned
+              data-instgrm-permalink={url}
+              data-instgrm-version="14"
+              style={{
+                background: "#fff",
+                border: 0,
+                borderRadius: "12px",
+                margin: "0 auto",
+                maxWidth: "540px",
+                minWidth: "326px",
+                padding: 0,
+                width: "100%",
+              }}
+            />
+          ))}
         </div>
       </div>
     </section>

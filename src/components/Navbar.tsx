@@ -9,6 +9,10 @@ const links = [
   { to: "/solutions", label: "Solutions" },
   { to: "/use-cases", label: "Use Cases" },
   { to: "/case-studies", label: "Case Studies" },
+
+  // ✅ NIEUW
+  { to: "/blog", label: "Blog" },
+
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ];
@@ -22,7 +26,9 @@ const Navbar = () => {
       <div className="container-tight flex items-center justify-between h-16 px-6">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="KiralyAI" className="h-8 w-8" />
-          <span className="text-xl font-bold tracking-tight">Király<span className="text-primary">AI</span></span>
+          <span className="text-xl font-bold tracking-tight">
+            Király<span className="text-primary">AI</span>
+          </span>
         </Link>
 
         {/* Desktop */}
@@ -82,6 +88,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
+
               <Link
                 to="/contact"
                 onClick={() => setOpen(false)}

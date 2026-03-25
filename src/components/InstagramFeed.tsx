@@ -23,7 +23,7 @@ const InstagramFeed = () => (
         {placeholderPosts.map((post, i) => (
           <FadeIn key={post.id} delay={i * 0.05}>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/kiralyai.nl"
               target="_blank"
               rel="noopener noreferrer"
               className={`group relative aspect-square rounded-xl bg-gradient-to-br ${post.color} flex items-center justify-center overflow-hidden border border-border hover:border-primary/30 transition-all`}

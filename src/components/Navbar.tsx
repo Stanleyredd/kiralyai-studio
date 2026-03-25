@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
@@ -19,8 +20,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container-tight flex items-center justify-between h-16 px-6">
-        <Link to="/" className="text-xl font-bold tracking-tight">
-          Király<span className="text-primary">AI</span>
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="KiralyAI" className="h-8 w-8" />
+          <span className="text-xl font-bold tracking-tight">Király<span className="text-primary">AI</span></span>
         </Link>
 
         {/* Desktop */}

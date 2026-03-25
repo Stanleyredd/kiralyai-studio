@@ -20,8 +20,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container-tight flex items-center justify-between h-16 px-6">
-        <Link to="/" className="text-xl font-bold tracking-tight">
-          Király<span className="text-primary">AI</span>
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="KiralyAI" className="h-8 w-8" />
+          <span className="text-xl font-bold tracking-tight">Király<span className="text-primary">AI</span></span>
         </Link>
 
         {/* Desktop */}

@@ -36,13 +36,13 @@ const InstagramFeed = () => (
       </div>
       <div className="mt-8 text-center">
         <a
-          href="https://instagram.com"
+          href="https://instagram.com/kiralyai.nl"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
         >
           <Instagram size={16} />
-          @kiralyai
+          @kiralyai.nl
         </a>
       </div>
     </div>

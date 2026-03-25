@@ -80,6 +80,6 @@
   }
 
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[hsl(260,80%,55%)];
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[hsl(195,60%,45%)];
   }
 }

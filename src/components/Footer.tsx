@@ -49,7 +49,7 @@ const Footer = () => (
       <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} KiralyAI. All rights reserved.</p>
         <div className="flex items-center gap-4 text-sm text-muted-foreground">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Instagram</a>
+          <a href="https://instagram.com/kiralyai.nl" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Instagram</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
         </div>
       </div>

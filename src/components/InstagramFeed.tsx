@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import SectionHeading from "./SectionHeading";
 
 const posts = [
+  "https://www.instagram.com/p/DWRc074CIaf/",
   "https://www.instagram.com/p/DV_FXgKCsxs/",
   "https://www.instagram.com/p/DV07PpTCvOB/",
 ];

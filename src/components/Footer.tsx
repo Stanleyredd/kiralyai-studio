@@ -5,8 +5,9 @@ const Footer = () => (
     <div className="container-tight px-6 py-16">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="col-span-2 md:col-span-1">
-          <Link to="/" className="text-xl font-bold tracking-tight">
-            Király<span className="text-primary">AI</span>
+        <Link to="/" className="flex items-center gap-2">
+            <img src={logoImg} alt="KiralyAI" className="h-7 w-7" />
+            <span className="text-xl font-bold tracking-tight">Király<span className="text-primary">AI</span></span>
           </Link>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
             AI automation, custom tools, and web development for modern businesses.

@@ -28,7 +28,7 @@ const InstagramFeed = () => {
     script.id = scriptId;
     script.src = "https://www.instagram.com/embed.js";
     script.async = true;
-    script.onload = () => processEmbeds();
+    script.onload = processEmbeds;
 
     document.body.appendChild(script);
   }, []);
@@ -42,25 +42,27 @@ const InstagramFeed = () => {
           description="Bekijk onze nieuwste Instagram posts."
         />
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid justify-items-center gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
           {posts.map((url) => (
-            <blockquote
-              key={url}
-              className="instagram-media"
-              data-instgrm-captioned
-              data-instgrm-permalink={url}
-              data-instgrm-version="14"
-              style={{
-                background: "#fff",
-                border: 0,
-                borderRadius: "12px",
-                margin: "0 auto",
-                maxWidth: "540px",
-                minWidth: "326px",
-                padding: 0,
-                width: "100%",
-              }}
-            />
+            <div key={url} className="w-full max-w-[320px]">
+              <blockquote
+                className="instagram-media"
+                data-instgrm-permalink={url}
+                data-instgrm-version="14"
+                style={{
+                  background: "#fff",
+                  border: 0,
+                  borderRadius: "12px",
+                  margin: "0 auto",
+                  maxWidth: "320px",
+                  minWidth: "280px",
+                  padding: 0,
+                  width: "100%",
+                  boxShadow: "0 8px 24px rgba(0,0,0,0.08)",
+                  overflow: "hidden",
+                }}
+              />
+            </div>
           ))}
         </div>
       </div>

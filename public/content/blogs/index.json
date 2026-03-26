@@ -1,14 +1,38 @@
 [
   {
-  "slug": "ai-integration-services",
-  "title": "AI Integration Services",
-  "excerpt": "Test blog",
-  "coverImage": "/placeholder.svg",
-  "publishedAt": "2026-03-26",
-  "author": "KiralyAI",
-  "category": "Blog",
-  "tags": ["Test"],
-  "seoTitle": "AI Integration Services | KiralyAI",
-  "seoDescription": "Test blog"
+    "slug": "test-blog-content",
+    "title": "Test Blog Content Variant",
+    "excerpt": "Test met content key om te kijken of deze variant werkt.",
+    "coverImage": "/placeholder.svg",
+    "publishedAt": "2026-03-26",
+    "author": "KiralyAI",
+    "category": "Blog",
+    "tags": ["Test"],
+    "seoTitle": "Test Blog Content Variant | KiralyAI",
+    "seoDescription": "Test met content key om te kijken of deze variant werkt."
+  },
+  {
+    "slug": "test-blog-blog",
+    "title": "Test Blog Blog Variant",
+    "excerpt": "Test met blog key om te kijken of deze variant werkt.",
+    "coverImage": "/placeholder.svg",
+    "publishedAt": "2026-03-26",
+    "author": "KiralyAI",
+    "category": "Blog",
+    "tags": ["Test"],
+    "seoTitle": "Test Blog Blog Variant | KiralyAI",
+    "seoDescription": "Test met blog key om te kijken of deze variant werkt."
+  },
+  {
+    "slug": "test-blog-html",
+    "title": "Test Blog HTML Variant",
+    "excerpt": "Test met html key om te kijken of deze variant werkt.",
+    "coverImage": "/placeholder.svg",
+    "publishedAt": "2026-03-26",
+    "author": "KiralyAI",
+    "category": "Blog",
+    "tags": ["Test"],
+    "seoTitle": "Test Blog HTML Variant | KiralyAI",
+    "seoDescription": "Test met html key om te kijken of deze variant werkt."
   }
 ]

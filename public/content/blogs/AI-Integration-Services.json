@@ -1,12 +1,13 @@
-<h2>Testblog KiralyAI</h2>
-<p>Als je deze tekst op de website ziet, dan wordt de blogcontent correct geladen vanuit het JSON-bestand.</p>
-<br>
-<p>Deze test is bedoeld om te controleren of de koppeling tussen de blogpagina, de slug en het individuele JSON-bestand werkt.</p>
-<br>
-<p>Zie je deze tekst niet, dan zit het probleem waarschijnlijk in de route, de bestandsnaam, de slug of de frontend-rendering.</p>
-<ul>
-  <li>Testpunt 1: JSON-bestand wordt opgehaald</li>
-  <li>Testpunt 2: HTML-content wordt gerenderd</li>
-  <li>Testpunt 3: Blogpagina toont de juiste data</li>
-</ul>
-<p>KiralyAI testcontent einde.</p>
+{
+  "slug": "testblog-kiralyai",
+  "title": "Testblog KiralyAI",
+  "excerpt": "Test om te controleren of de blog correct op de website wordt weergegeven.",
+  "coverImage": "/placeholder.svg",
+  "publishedAt": "2026-03-26",
+  "author": "KiralyAI",
+  "category": "Blog",
+  "tags": ["Test", "Automation"],
+  "seoTitle": "Testblog KiralyAI | KiralyAI",
+  "seoDescription": "Test om te controleren of de blog correct op de website wordt weergegeven.",
+  "content": "<h2>Testblog KiralyAI</h2><p>Als je deze tekst op de website ziet, dan wordt de blogcontent correct geladen vanuit het JSON-bestand.</p><br><p>Deze test is bedoeld om te controleren of de koppeling tussen de blogpagina, de slug en het individuele JSON-bestand werkt.</p><br><p>Zie je deze tekst niet, dan zit het probleem waarschijnlijk in de route, de bestandsnaam, de slug of de frontend-rendering.</p><ul><li>Testpunt 1: JSON-bestand wordt opgehaald</li><li>Testpunt 2: HTML-content wordt gerenderd</li><li>Testpunt 3: Blogpagina toont de juiste data</li></ul><p>KiralyAI testcontent einde.</p>"
+}

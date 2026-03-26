@@ -1,74 +1,12 @@
-[
-  {
-    "slug": "business-process-automation",
-    "title": "Business Process Automation",
-    "excerpt": "Business Process AutomationBusinesses often struggle with manual intake processing, leading to inefficiencies and errors in operations.ExplanationThe manual intake processing probl...",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": [
-      "Web3",
-      "Crypto"
-    ],
-    "seoTitle": "Business Process Automation | KiralyAI",
-    "seoDescription": "Business Process AutomationBusinesses often struggle with manual intake processing, leading to inefficiencies and errors in operations.ExplanationThe manual intake processing probl..."
-  },
-  {
-    "slug": "ai-automation-crm",
-    "title": "AI automation CRM",
-    "excerpt": "Automating CRM Processes for Enhanced Operational Efficiency In today's competitive business landscape, staying ahead requires efficient operations. One of the critical challenges ...",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": [
-      "Web3",
-      "Crypto"
-    ],
-    "seoTitle": "AI automation CRM | KiralyAI",
-    "seoDescription": "Automating CRM Processes for Enhanced Operational Efficiency In today's competitive business landscape, staying ahead requires efficient operations. One of the critical challenges ..."
-  },
-  {
-    "slug": "ai-automation-for-sme-operations",
-    "title": "AI automation for SME operations",
-    "excerpt": "Addressing Operational Inefficiencies in SME OperationsManual intake processing, repetitive administrative tasks, and inefficient customer communication are prevalent challenges wi...",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": [
-      "Web3",
-      "Crypto"
-    ],
-    "seoTitle": "AI automation for SME operations | KiralyAI",
-    "seoDescription": "Addressing Operational Inefficiencies in SME OperationsManual intake processing, repetitive administrative tasks, and inefficient customer communication are prevalent challenges wi..."
-  },
-  {
-    "slug": "ai-integration-services",
-    "title": "AI Integration Services",
-    "excerpt": "Optimizing Customer Communications Through AI Integration Services Businesses often face challenges in managing the influx of customer inquiries efficiently, leading to delays and ...",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": [
-      "Web3",
-      "Crypto"
-    ],
-    "seoTitle": "AI Integration Services | KiralyAI",
-    "seoDescription": "Optimizing Customer Communications Through AI Integration Services Businesses often face challenges in managing the influx of customer inquiries efficiently, leading to delays and ..."
-  },
-  {
-  "slug": "testblog-kiralyai",
-  "title": "Testblog KiralyAI",
-  "excerpt": "Test om te controleren of de blog correct op de website wordt weergegeven.",
+{
+  "slug": "ai-integration-services",
+  "title": "AI Integration Services",
+  "excerpt": "Test blog",
   "coverImage": "/placeholder.svg",
   "publishedAt": "2026-03-26",
   "author": "KiralyAI",
   "category": "Blog",
-  "tags": ["Test", "Automation"],
-  "seoTitle": "Testblog KiralyAI | KiralyAI",
-  "seoDescription": "Test om te controleren of de blog correct op de website wordt weergegeven."
+  "tags": ["Test"],
+  "seoTitle": "AI Integration Services | KiralyAI",
+  "seoDescription": "Test blog"
 }
-]

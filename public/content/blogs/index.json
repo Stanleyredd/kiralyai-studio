@@ -1,38 +1,14 @@
 [
   {
-    "slug": "test-blog-content",
-    "title": "Test Blog Content Variant",
-    "excerpt": "Test met content key om te kijken of deze variant werkt.",
+    "slug": "eerste-blog",
+    "title": "Waarom AI automation interessant is voor groeiende bedrijven",
+    "excerpt": "AI automation helpt bedrijven tijd besparen, processen versnellen en slimmer te werken zonder direct een groot team uit te breiden.",
     "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
+    "publishedAt": "2026-03-25",
     "author": "KiralyAI",
-    "category": "Blog",
-    "tags": ["Test"],
-    "seoTitle": "Test Blog Content Variant | KiralyAI",
-    "seoDescription": "Test met content key om te kijken of deze variant werkt."
-  },
-  {
-    "slug": "test-blog-blog",
-    "title": "Test Blog Blog Variant",
-    "excerpt": "Test met blog key om te kijken of deze variant werkt.",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": ["Test"],
-    "seoTitle": "Test Blog Blog Variant | KiralyAI",
-    "seoDescription": "Test met blog key om te kijken of deze variant werkt."
-  },
-  {
-    "slug": "test-blog-html",
-    "title": "Test Blog HTML Variant",
-    "excerpt": "Test met html key om te kijken of deze variant werkt.",
-    "coverImage": "/placeholder.svg",
-    "publishedAt": "2026-03-26",
-    "author": "KiralyAI",
-    "category": "Blog",
-    "tags": ["Test"],
-    "seoTitle": "Test Blog HTML Variant | KiralyAI",
-    "seoDescription": "Test met html key om te kijken of deze variant werkt."
+    "category": "AI Automation",
+    "tags": ["AI", "Automation", "Bedrijven"],
+    "seoTitle": "Waarom AI automation interessant is voor groeiende bedrijven | KiralyAI",
+    "seoDescription": "Lees waarom AI automation bedrijven helpt om slimmer te werken, tijd te besparen en processen te verbeteren."
   }
 ]

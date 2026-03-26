@@ -1,5 +1,21 @@
 [
   {
+    "slug": "intelligentie-voor-schaalbare-automatisering-van-administratieve-processen",
+    "title": "Intelligentie voor schaalbare automatisering van administratieve processen",
+    "excerpt": "In de zakelijke wereld staan efficiëntie en schaalbaarheid centraal. Veel organisaties worden geconfronteerd met complexe administratieve processen die handmatig, tijdrovend en fou...",
+    "coverImage": "/placeholder.svg",
+    "publishedAt": "2026-03-26",
+    "author": "KiralyAI",
+    "category": "AI Automation",
+    "tags": [
+      "AI",
+      "Automation",
+      "Bedrijven"
+    ],
+    "seoTitle": "Intelligentie voor schaalbare automatisering van administratieve processen | KiralyAI",
+    "seoDescription": "In de zakelijke wereld staan efficiëntie en schaalbaarheid centraal. Veel organisaties worden geconfronteerd met complexe administratieve processen die handmatig, tijdrovend en fou..."
+  },
+  {
     "slug": "eerste-blog",
     "title": "Waarom AI automation interessant is voor groeiende bedrijven",
     "excerpt": "AI automation helpt bedrijven tijd besparen, processen versnellen en slimmer te werken zonder direct een groot team uit te breiden.",
@@ -7,7 +23,11 @@
     "publishedAt": "2026-03-25",
     "author": "KiralyAI",
     "category": "AI Automation",
-    "tags": ["AI", "Automation", "Bedrijven"],
+    "tags": [
+      "AI",
+      "Automation",
+      "Bedrijven"
+    ],
     "seoTitle": "Waarom AI automation interessant is voor groeiende bedrijven | KiralyAI",
     "seoDescription": "Lees waarom AI automation bedrijven helpt om slimmer te werken, tijd te besparen en processen te verbeteren."
   }

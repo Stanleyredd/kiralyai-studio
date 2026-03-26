@@ -1,5 +1,20 @@
 [
   {
+    "slug": "business-process-automation",
+    "title": "Business Process Automation",
+    "excerpt": "Business Process AutomationBusinesses often struggle with manual intake processing, leading to inefficiencies and errors in operations.ExplanationThe manual intake processing probl...",
+    "coverImage": "/placeholder.svg",
+    "publishedAt": "2026-03-26",
+    "author": "KiralyAI",
+    "category": "Blog",
+    "tags": [
+      "Web3",
+      "Crypto"
+    ],
+    "seoTitle": "Business Process Automation | KiralyAI",
+    "seoDescription": "Business Process AutomationBusinesses often struggle with manual intake processing, leading to inefficiencies and errors in operations.ExplanationThe manual intake processing probl..."
+  },
+  {
     "slug": "ai-automation-crm",
     "title": "AI automation CRM",
     "excerpt": "Automating CRM Processes for Enhanced Operational Efficiency In today's competitive business landscape, staying ahead requires efficient operations. One of the critical challenges ...",

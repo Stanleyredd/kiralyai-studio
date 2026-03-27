@@ -67,30 +67,41 @@ const BlogPost = () => {
                   />
                 )}
 
-                <article className="mt-10 space-y-6">
+                {/* 🔥 BELANGRIJK: HTML rendering + link styling */}
+                <article className="mt-10 space-y-6 [&_a]:text-primary [&_a]:underline hover:[&_a]:opacity-80">
                   {post.content.map((block, index) => {
                     if (block.type === "paragraph") {
                       return (
-                        <p key={index} className="text-base leading-8 text-foreground/90">
-                          {block.text}
-                        </p>
+                        <p
+                          key={index}
+                          className="text-base leading-8 text-foreground/90"
+                          dangerouslySetInnerHTML={{ __html: block.text }}
+                        />
                       );
                     }
 
                     if (block.type === "heading") {
                       const Tag = block.level === 2 ? "h2" : "h3";
                       return (
-                        <Tag key={index} className="pt-4 text-2xl font-semibold">
-                          {block.text}
-                        </Tag>
+                        <Tag
+                          key={index}
+                          className="pt-4 text-2xl font-semibold"
+                          dangerouslySetInnerHTML={{ __html: block.text }}
+                        />
                       );
                     }
 
                     if (block.type === "list") {
                       return (
-                        <ul key={index} className="list-disc space-y-2 pl-6 text-base leading-8">
+                        <ul
+                          key={index}
+                          className="list-disc space-y-2 pl-6 text-base leading-8"
+                        >
                           {block.items.map((item, itemIndex) => (
-                            <li key={itemIndex}>{item}</li>
+                            <li
+                              key={itemIndex}
+                              dangerouslySetInnerHTML={{ __html: item }}
+                            />
                           ))}
                         </ul>
                       );

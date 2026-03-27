@@ -1,0 +1,29 @@
+{
+  "slug": "nieuwe-blog",
+  "title": "Nieuwe blog",
+  "excerpt": "",
+  "coverImage": "/Kiralyai.com.webp",
+  "publishedAt": "2026-03-27",
+  "author": "KiralyAI",
+  "category": "AI Automation",
+  "tags": [
+    "AI",
+    "Automation",
+    "Bedrijven"
+  ],
+  "seoTitle": "Nieuwe blog | KiralyAI",
+  "seoDescription": "",
+  "content": [],
+  "links": [
+    {
+      "type": "internal",
+      "anchor": "KiralyAI",
+      "url": "https://kiralyai.com"
+    },
+    {
+      "type": "internal",
+      "anchor": "workflow automatisering",
+      "url": "https://kiralyai.com/blog/workflow-automatisering-voor-bedrijven"
+    }
+  ]
+}

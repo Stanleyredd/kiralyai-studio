@@ -1,21 +1,5 @@
 [
   {
-    "slug": "nieuwe-blog",
-    "title": "Intelligent automatisering voor AI agent workloads",
-    "excerpt": "In veel bedrijven zien we nog steeds dat AI-agent workloads handmatig worden aangestuurd en beheerd. Dit leidt tot inefficiëntie, operationele fouten en belemmert de groei van orga...",
-    "coverImage": "/Kiralyai.com.webp",
-    "publishedAt": "2026-03-28",
-    "author": "KiralyAI",
-    "category": "AI Automation",
-    "tags": [
-      "AI",
-      "Automation",
-      "Bedrijven"
-    ],
-    "seoTitle": "Intelligent automatisering voor AI agent workloads | KiralyAI",
-    "seoDescription": "In veel bedrijven zien we nog steeds dat AI-agent workloads handmatig worden aangestuurd en beheerd. Dit leidt tot inefficiëntie, operationele fouten en belemmert de groei van orga..."
-  },
-  {
     "slug": "efficinte-ai-automatisering-voor-nederlandse-bedrijfsprocessen",
     "title": "Efficiënte AI automatisering voor Nederlandse bedrijfsprocessen",
     "excerpt": "Bedrijven in Nederland worstelen nog vaak met handmatige taken en inefficiënte processen bij het verwerken van data, klantinteracties, en operationele workflows. Deze verouderde we...",
